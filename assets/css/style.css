@@ -1,5 +1,29 @@
+body,html {
+    background-image: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/JrbItQz/light-blue-polygonal-background-seamles-loop-3d-render-4k-uhd-3840x2160_bhidnioy__F0000.png);
+    height: 100%;
+}
+
+
 #container {
     height: 100%;
     width: 100%;
-    background-image: "assets/images/background.jpg"
+    
+}
+
+.jumbotron {
+    background: none;
+}
+
+
+
+
+img {
+ 
+    cursor: pointer;
+}   
+
+@media only screen and (max-width: 768px) {
+    .card {
+        width: 100%;
+    }
 }
