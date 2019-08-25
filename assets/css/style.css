@@ -14,16 +14,17 @@ body,html {
     background: none;
 }
 
+.card {
+    background: none;
+    border: none;
+}
 
 
 
 img {
  
     cursor: pointer;
+    align-content: center;
+    justify-content: center;
+    
 }   
-
-@media only screen and (max-width: 768px) {
-    .card {
-        width: 100%;
-    }
-}
