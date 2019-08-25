@@ -87,7 +87,7 @@ $(".black-crystal").on("click", function(){
 // New game will begin, new random number is chosen, all 4 crystals will have new random values.
 function checkScore(){
     if(scoreCount == targetNumber){
-        alert("YOU WIN");
+        alert("YOU WIN! Your score was: " + scoreCount);
         winCount++;
         $("#wins").html(winCount);
         newGame();
@@ -97,7 +97,7 @@ function checkScore(){
     // If "your score" > "random number"; game will end, player loses.
     // New game will begin, new random number is chosen, all 4 crystals will have new random values.
     else if (scoreCount > targetNumber){
-        alert("YOU LOSE");
+        alert("YOU LOSE... Your score was: " + scoreCount);
         loseCount++;
         $("#losses").html(loseCount);
         newGame();
